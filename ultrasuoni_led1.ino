@@ -10,8 +10,7 @@
 #define LED5 5
 
 
-void setup()
-{
+void setup(){
   Serial.begin (9600);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
@@ -25,8 +24,7 @@ void setup()
   pinMode(LED5, OUTPUT);
 }
 
-void loop()
-{
+void loop(){
   float duration, distance;
   
   //Check spento
